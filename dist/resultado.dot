@@ -1,0 +1,69 @@
+digraph G {
+nodo_0_0[label = "Resta
+3.0"];
+nodo_0_1_izquierda[label = "6.5"];
+nodo_0_0 -> nodo_0_1_izquierda;
+nodo_0_1_derecho[label = "3.5"];
+nodo_0_0 -> nodo_0_1_derecho;
+nodo_1_0[label = "Multiplicacion
+64.0"];
+nodo_1_1_izquierda[label = "Potencia
+8.0"];
+nodo_1_2_izquierda_izquierda[label = "2"];
+nodo_1_1_izquierda -> nodo_1_2_izquierda_izquierda;
+nodo_1_2_izquierda_derecho[label = "Raiz
+3.0"];
+nodo_1_3_izquierda_derecho_izquierda[label = "9"];
+nodo_1_2_izquierda_derecho -> nodo_1_3_izquierda_derecho_izquierda;
+nodo_1_3_izquierda_derecho_derecho[label = "2"];
+nodo_1_2_izquierda_derecho -> nodo_1_3_izquierda_derecho_derecho;
+nodo_1_1_izquierda -> nodo_1_2_izquierda_derecho;
+nodo_1_0 -> nodo_1_1_izquierda;
+nodo_1_1_derecho[label = "Potencia
+8.0"];
+nodo_1_2_derecho_izquierda[label = "2"];
+nodo_1_1_derecho -> nodo_1_2_derecho_izquierda;
+nodo_1_2_derecho_derecho[label = "Raiz
+3.0"];
+nodo_1_3_derecho_derecho_izquierda[label = "9"];
+nodo_1_2_derecho_derecho -> nodo_1_3_derecho_derecho_izquierda;
+nodo_1_3_derecho_derecho_derecho[label = "2"];
+nodo_1_2_derecho_derecho -> nodo_1_3_derecho_derecho_derecho;
+nodo_1_1_derecho -> nodo_1_2_derecho_derecho;
+nodo_1_0 -> nodo_1_1_derecho;
+nodo_2_0[label = "Suma
+6.32"];
+nodo_2_1_izquierda[label = "Seno
+1.0"];
+nodo_2_2_izquierda_angulo[label = "90"];
+nodo_2_1_izquierda -> nodo_2_2_izquierda_angulo;
+nodo_2_0 -> nodo_2_1_izquierda;
+nodo_2_1_derecho[label = "5.32"];
+nodo_2_0 -> nodo_2_1_derecho;
+nodo_3_0[label = "Resta
+100.0"];
+nodo_3_1_izquierda[label = "Division
+250.0"];
+nodo_3_2_izquierda_izquierda[label = "500"];
+nodo_3_1_izquierda -> nodo_3_2_izquierda_izquierda;
+nodo_3_2_izquierda_derecho[label = "Division
+2.0"];
+nodo_3_3_izquierda_derecho_izquierda[label = "10"];
+nodo_3_2_izquierda_derecho -> nodo_3_3_izquierda_derecho_izquierda;
+nodo_3_3_izquierda_derecho_derecho[label = "5"];
+nodo_3_2_izquierda_derecho -> nodo_3_3_izquierda_derecho_derecho;
+nodo_3_1_izquierda -> nodo_3_2_izquierda_derecho;
+nodo_3_0 -> nodo_3_1_izquierda;
+nodo_3_1_derecho[label = "Multiplicacion
+150"];
+nodo_3_2_derecho_izquierda[label = "10"];
+nodo_3_1_derecho -> nodo_3_2_derecho_izquierda;
+nodo_3_2_derecho_derecho[label = "Multiplicacion
+15"];
+nodo_3_3_derecho_derecho_izquierda[label = "3"];
+nodo_3_2_derecho_derecho -> nodo_3_3_derecho_derecho_izquierda;
+nodo_3_3_derecho_derecho_derecho[label = "5"];
+nodo_3_2_derecho_derecho -> nodo_3_3_derecho_derecho_derecho;
+nodo_3_1_derecho -> nodo_3_2_derecho_derecho;
+nodo_3_0 -> nodo_3_1_derecho;
+}
